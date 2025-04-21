@@ -1,0 +1,14 @@
+﻿1. Using official RabbitMQ .NET native client (nuget packages store)
+2. Docker command:
+	docker run -d --name rabbitmq_custom_masstransit -p 15672:15672 -p 5672:5672 rabbitmq:management
+
+3. Open RabbitMQ locally:
+- host: http://localhost:15672/
+- user: guest
+- password: guest
+
+### Create RabbitMQ queues
+
+```shell
+$ .\RabbitMQ_setup.ps1
+```

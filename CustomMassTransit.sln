@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMassTransitProducer", "CustomMassTransitProducer\CustomMassTransitProducer.csproj", "{4F127477-4B07-4D92-B261-52BD2BD38DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMassTransitConsumer", "CustomMassTransitConsumer\CustomMassTransitConsumer.csproj", "{6E1E8E76-A64C-4674-919F-E274EA040369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonContracts", "CommonContracts\CommonContracts.csproj", "{8F9A6370-5890-4B52-B615-653D8C2E0F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87659BE3-56DC-4F5D-972A-8D8424842C2D}"
+	ProjectSection(SolutionItems) = preProject
+		notes.txt = notes.txt
+		RabbitMQ_setup.ps1 = RabbitMQ_setup.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F127477-4B07-4D92-B261-52BD2BD38DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F127477-4B07-4D92-B261-52BD2BD38DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F127477-4B07-4D92-B261-52BD2BD38DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F127477-4B07-4D92-B261-52BD2BD38DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1E8E76-A64C-4674-919F-E274EA040369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1E8E76-A64C-4674-919F-E274EA040369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1E8E76-A64C-4674-919F-E274EA040369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1E8E76-A64C-4674-919F-E274EA040369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9A6370-5890-4B52-B615-653D8C2E0F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9A6370-5890-4B52-B615-653D8C2E0F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9A6370-5890-4B52-B615-653D8C2E0F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9A6370-5890-4B52-B615-653D8C2E0F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
